@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 014</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 12px;
+            text-align: center;
+            vertical-align: center;
+        }
+        table .header {
+            background-color: gray;
+            color: white;
+        }
+        table .text {
+            text-align: left;
+        }
+        .subtotal {
+            background-color: aqua;
+            font-weight: bold;
+        }
+        tr, th, td {
+            border: 1px solid black;
+            padding: 5px 10px;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr class="header">
+            <th scope="col" rowspan="2">Área
+            <th scope="col" rowspan="2">Disciplinas
+            <th colspan="2" scope="colgroup">Notas
+            <th scope="col" rowspan="2">Média
+        </tr>
+        <tr class="header">
+            <th> Nota 1
+            <th> Nota 2
+        </tr>
+        <tr>
+            <th rowspan="4" scope="rowgroup">Exatas
+            <td class="text">Matemática
+            <td>0.0
+            <td>0.0
+            <td>0.0
+        </tr>
+        <tr>
+            <td class="text">Física
+            <td>0.0
+            <td>0.0
+            <td>0.0
+        </tr>
+        <tr>
+            <td class="text">Química
+            <td>0.0
+            <td>0.0
+            <td>0.0
+        </tr>
+        <tr>
+            <td class="text">Biologia
+            <td>0.0
+            <td>0.0
+            <td>0.0
+        </tr>
+        <tr class="subtotal">
+            <th colspan="4">Média de Exatas
+            <td>0.0
+        </tr>
+        <tr>
+            <th rowspan="2" scope="rowgroup">Humanas
+            <td class="text">História
+            <td>0.0
+            <td>0.0
+            <td>0.0
+        </tr>
+        <tr>
+            <td class="text">Geografia
+            <td>0.0
+            <td>0.0
+            <td>0.0
+        </tr>
+        <tr class="subtotal">
+            <th colspan="4">Média de Humanas
+            <td>0.0
+        </tr>
+    </table>
+</body>
+</html>
