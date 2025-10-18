@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+    * {
+        margin: 0;
+        padding: 0;
+        font-family: system-ui, -apple-system, Roboto, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        box-sizing: border-box;
+    }
+
+    body {
+        margin: 10px;
+        padding: 10px;
+    }
+
+    fieldset, form p {
+        margin: 10px;
+        background-color: lightcoral;
+        padding: 10px;
+    }
+
+    form p {
+        background-color: lightcyan;
+    }
+</style>
+<body>
+    <h1>Exemplo de Formulário</h1>
+    <form action="cadastro.php" method="get" autocomplete="on">
+        <fieldset>
+            <legend><strong>Gender:</strong></legend>
+            <input type="radio" name="gender" id="male">
+            <label for="male">Male</label><br>
+            <input type="radio" name="gender" id="female">
+            <label for="female">Female</label><br>
+        </fieldset>
+        <fieldset>
+            <legend><strong>Favorite Sports:</strong></legend>
+            <input type="checkbox" name="favorite-sports" id="basketball">
+            <label for="basketball">Basketball</label><br>
+            <input type="checkbox" name="favorite-sports" id="soccer">
+            <label for="soccer">Soccer</label><br>
+            <input type="checkbox" name="favorite-sports" id="swimming">
+            <label for="swimming">Swimming</label><br>
+            <input type="checkbox" name="favorite-sports" id="tennis">
+            <label for="tennis">Tennis</label>
+        </fieldset>
+        <p>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </p>
+    </form>
+    
+</body>
+</html>
