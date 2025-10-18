@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Exemplo de Formulário</h1>
+    <form action="cadastro.php" method="get" autocomplete="on">
+        <p>
+            <label for="icolor">Color:</label>
+            <input type="color" name="color" id="icolor" >
+        </p>
+        <p>
+            <label for="ilevel">Level:</label>
+            <input type="range" name="level" id="ilevel" min="1" max="10" value="10">
+        </p>
+        <p>
+            <label for="iphoto">Photo:</label>
+            <input type="file" name="file" id="ifile">
+        </p>
+        <p>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </p>
+    </form>   
+</body>
+</html>
