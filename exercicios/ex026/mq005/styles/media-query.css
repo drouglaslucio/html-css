@@ -2,6 +2,11 @@
 
 @media screen and (min-width: 768px) {
     
+    body {
+        width: 700px;
+        margin: auto;
+        box-shadow: 0 0 10px gray;
+    }
     header #menu-burguer {
     display: none;
     }
@@ -21,9 +26,6 @@
     }
 
     main {
-        width: 700px;
         height: 90vh;
-        margin: auto;
-        box-shadow: 0 0 10px gray;
     }
 }

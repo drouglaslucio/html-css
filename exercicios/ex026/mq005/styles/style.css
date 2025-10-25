@@ -8,6 +8,7 @@
 }
 body, html {
     background-color: lightgray;
+    height: 100vh;
 }
 
 header {
@@ -29,6 +30,7 @@ header #menu-burguer {
     color: white;
     text-align: center;
     padding: 5px;
+    cursor: pointer;
 }
 
 header #menu-burguer:hover {
@@ -37,6 +39,7 @@ header #menu-burguer:hover {
     color: black;
     text-align: center;
     padding: 5px;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 menu > ul {
