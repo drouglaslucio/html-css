@@ -1,0 +1,9 @@
+@charset "UFT-8";
+
+header > h1 {
+    flex-basis: 50px;
+}
+
+header, header > nav {
+    flex-flow: column nowrap;
+}

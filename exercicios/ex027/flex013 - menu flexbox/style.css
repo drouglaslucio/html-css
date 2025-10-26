@@ -26,14 +26,15 @@ header {
 }
 
 header h1 {
-    border: 1px dotted black;
+    /* border: 1px dotted black; */
+    text-shadow: 2px 2px 2px #0005;
 
     flex: 0 0 200px;
 
 }
 
 header nav {
-    border: 1px dotted black;
+    /* border: 1px dotted black; */
 
     display: flex;
     flex-flow: row wrap;
@@ -41,7 +42,7 @@ header nav {
 }
 
 header nav a {
-    background-color: black;
+    background-color: #000a; 
     color: white;
     padding: 10px;
     margin: 5px;
