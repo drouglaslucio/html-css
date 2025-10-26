@@ -12,8 +12,14 @@ body {
     line-height: 1.5em;
 }
 
-p, h1, h2 {
+h1, h2 {
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+p {
     margin-bottom: 10px;
+    text-indent: 1em;
 }
 
 header, section.normal {
@@ -21,6 +27,46 @@ header, section.normal {
 }
 
 section.flex-content {
-    padding: 20px;
     background-color: lightgray;
+    padding: 20px;
+
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+article.media-text {
+    display: flex;
+    flex-flow: row wrap-reverse;
+    justify-content: space-between;
+}
+
+article.text-media {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+article > div.text {
+    flex: 1 1 500px;
+}
+
+article > div.media {
+    flex: 1 0 400px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+div.media > img {
+    display: block;
+    margin: auto;
+
+    border-radius: 1em;
+}
+
+div.media > iframe {
+    display: block;
+    margin: auto;
+
+    border-radius: 1em;
 }
